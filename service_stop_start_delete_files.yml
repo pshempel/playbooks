@@ -1,6 +1,6 @@
 ---
 - name: Manage service and file cleanup
-  hosts: "{{ my_dynamic_hosts }}"
+  hosts: "{{ the_hosts }}"
   become: yes
   vars_files:
     - hosts_vars.yml
